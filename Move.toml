@@ -1,0 +1,11 @@
+[package]
+name = "myNft"
+
+[dependencies]
+#Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+Sui = { local = "../sui-mainnet-v1.17.3/crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+myNft = "0x0"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"
+
